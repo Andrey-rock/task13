@@ -4,7 +4,6 @@ import java.util.Collection;
 public class Main {
     public static void main(String[] args) {
         Collection<User> users = new ArrayList<>();
-
         users.add(new User("Иван", 38));
         users.add(new User("Петр", 38));
         users.add(new User("Мария", 21));
