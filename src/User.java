@@ -34,8 +34,6 @@ public class User {
         return name.equals(user.name) && age == user.age;
     }
 
-
-
     @Override
     public String toString() {
         return "User{" +
